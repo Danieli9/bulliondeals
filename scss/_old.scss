@@ -1,0 +1,1494 @@
+@font-face {
+    font-family: 'Holimount';
+    src: local("/wp-content/themes/porto-child/fonts/Holimount.woff2") format("woff2"), local("/wp-content/themes/porto-child/fonts/Holimount.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  .wrapper {
+    margin: 100px auto;
+  }
+  
+  @media (max-width: 500px) {
+    .wrapper {
+      margin: 70px auto;
+    }
+  }
+  
+  #wrapper-navbar .container {
+    position: relative;
+  }
+  
+  @media (max-width: 991px) {
+    #wrapper-navbar .container .position-absolute-mini-cart {
+      position: absolute;
+      right: 50px;
+      top: 41px;
+    }
+  }
+  
+  #wrapper-navbar #main-nav {
+    background-color: #001d3d !important;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  #wrapper-navbar #main-nav .navbar-toggler {
+    margin: 0;
+    padding: 0;
+    width: 34px;
+    height: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: transform 650ms ease-out;
+    display: none;
+  }
+  
+  @media (max-width: 991px) {
+    #wrapper-navbar #main-nav .navbar-toggler {
+      display: inherit;
+    }
+  }
+  
+  #wrapper-navbar #main-nav .navbar-toggler .bar {
+    background: linear-gradient(135deg, transparent 1.5px, #ffb642 0) top left, linear-gradient(225deg, transparent 1.5px, #ffb642 0) top right, linear-gradient(315deg, #ffb642 2px, #ffb642 0) bottom right, linear-gradient(45deg, #ffb642 2px, #ffb642 0) bottom left;
+    width: 100%;
+    height: 6px;
+    background-size: 80% 50%;
+    background-repeat: no-repeat;
+  }
+  
+  #wrapper-navbar #main-nav .navbar-brand svg {
+    width: 150px;
+  }
+  
+  @media (max-width: 992px) {
+    #wrapper-navbar #main-nav .navbar-brand {
+      margin-left: 5px;
+      margin-right: auto;
+    }
+  }
+  
+  #wrapper-navbar #main-nav #navbarNavDropdown #main-menu li {
+    margin: auto 0;
+  }
+  
+  @media (max-width: 992px) {
+    #wrapper-navbar #main-nav #navbarNavDropdown #main-menu li {
+      text-align: left;
+    }
+    #wrapper-navbar #main-nav #navbarNavDropdown #main-menu li a {
+      white-space: inherit;
+    }
+  }
+  
+  #wrapper-navbar #main-nav #navbarNavDropdown #main-menu li .nav-link {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    transition: all 0.3s ease-in;
+  }
+  
+  #wrapper-navbar #main-nav #navbarNavDropdown #main-menu li .nav-link:hover {
+    color: #ffb642;
+    border-bottom: 1px solid #ffb642;
+  }
+  
+  @media (max-width: 1170px) {
+    #wrapper-navbar #main-nav #navbarNavDropdown #main-menu li .nav-link {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+  }
+  
+  .home-page-banner {
+    background-color: #001d3d;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home-page-banner .container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider {
+    min-height: 400px;
+    margin-bottom: 0px;
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single {
+    position: relative;
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner {
+    position: absolute;
+    z-index: 1;
+    max-width: 350px;
+    left: 50px;
+    top: 50%;
+    transform: translate(0%, -50%);
+  }
+  
+  @media (max-width: 500px) {
+    .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner {
+      max-width: inherit;
+      bottom: 40px;
+      left: 0px;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-right: 20px;
+      top: initial;
+      transform: inherit;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 0.9;
+  }
+  
+  @media (max-width: 500px) {
+    .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner h3 {
+      font-size: 30px;
+    }
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner h3 span {
+    color: #ffb642;
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner .text-small {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 500px) {
+    .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner .text-small {
+      font-size: 16px;
+    }
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner-down {
+    position: absolute;
+    left: 50px;
+    bottom: 40px;
+    z-index: 1;
+    max-width: 600px;
+  }
+  
+  @media (max-width: 500px) {
+    .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner-down {
+      left: 0px;
+      padding-left: 20px;
+      padding-top: 20px;
+      padding-right: 20px;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner-down h3 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: left;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 0.9;
+  }
+  
+  @media (max-width: 500px) {
+    .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner-down h3 {
+      font-size: 30px;
+    }
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner-down h3 span {
+    color: #ffb642;
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner-down .text-small {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    color: #fff;
+  }
+  
+  @media (max-width: 500px) {
+    .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single .text-holder-banner-down .text-small {
+      font-size: 16px;
+    }
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single img {
+    min-height: 400px;
+    object-fit: cover;
+    object-position: 0% top;
+  }
+  
+  @media (max-width: 500px) {
+    .home-page-banner .container .bulliondeals-banner-slider .bulliondeals-banner-single img {
+      object-position: 70% top;
+    }
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .slick-prev {
+    z-index: 10;
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .slick-prev::before {
+    font-size: 30px;
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .slick-next {
+    z-index: 10;
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .slick-next::before {
+    font-size: 30px;
+  }
+  
+  .home-page-banner .container .bulliondeals-banner-slider .slick-slide {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .home-page-banner .container .slick-dots {
+    position: absolute;
+    bottom: 5px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .home-page-banner .container li button::before {
+    color: #000;
+    font-size: 12px;
+    opacity: 0.8;
+  }
+  
+  .home-page-banner .container .slick-active button::before {
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .home-page-agents {
+    background-color: #001225;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  @media (max-width: 1170px) {
+    .home-page-agents {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  .home-page-agents .flex-holder {
+    width: 285px;
+    min-height: 75px;
+    display: flex;
+  }
+  
+  @media (max-width: 1170px) {
+    .home-page-agents .flex-holder {
+      margin: 10px auto;
+    }
+  }
+  
+  .home-page-agents .flex-holder img {
+    max-width: 46px;
+    max-height: 50px;
+    align-self: center;
+  }
+  
+  .home-page-agents .flex-holder .gold-line {
+    width: 1px;
+    height: 50px;
+    place-self: center;
+    background-color: #ffb642;
+    margin: 0 10px;
+  }
+  
+  .home-page-agents .flex-holder .text-holder {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  
+  .home-page-agents .flex-holder .text-holder h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home-page-agents .flex-holder .text-holder p {
+    color: #fff;
+    font-size: 11px;
+    margin-bottom: 5px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home-page-agents .flex-holder .btn-tesla {
+    padding: 3px 15px;
+    background-color: #ffb642;
+    height: 100%;
+    margin: auto auto 10px 10px;
+    color: #000;
+    min-width: 65px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 1169px) {
+    .home-page-agents .flex-holder .btn-tesla {
+      margin: auto 10px auto auto;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .home-page-agents .flex-holder .btn-tesla {
+      margin: auto 2px auto auto;
+    }
+  }
+  
+  .home-page-silver-gold {
+    background: linear-gradient(90deg, #ffb642 50%, #d8d8d8 50%);
+  }
+  
+  @media (max-width: 991px) {
+    .home-page-silver-gold {
+      background: linear-gradient(180deg, #ffb642 50%, #d8d8d8 50%);
+    }
+  }
+  
+  .home-page-silver-gold .gold {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffb642;
+    min-height: 180px;
+  }
+  
+  @media (max-width: 992px) {
+    .home-page-silver-gold .gold {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  .home-page-silver-gold .gold img {
+    margin: 20px;
+  }
+  
+  @media (max-width: 992px) {
+    .home-page-silver-gold .gold img {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  
+  @media (max-width: 321px) {
+    .home-page-silver-gold .gold img {
+      margin: 5px;
+      max-width: 130px;
+    }
+  }
+  
+  .home-page-silver-gold .gold .text-holder h3 {
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  @media (max-width: 321px) {
+    .home-page-silver-gold .gold .text-holder h3 {
+      font-size: 20px;
+    }
+  }
+  
+  .home-page-silver-gold .gold .text-holder p {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home-page-silver-gold .silver {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d8d8d8;
+    min-height: 180px;
+  }
+  
+  @media (max-width: 992px) {
+    .home-page-silver-gold .silver {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+  }
+  
+  .home-page-silver-gold .silver img {
+    margin: 20px;
+  }
+  
+  @media (max-width: 992px) {
+    .home-page-silver-gold .silver img {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+  
+  @media (max-width: 321px) {
+    .home-page-silver-gold .silver img {
+      margin: 5px;
+      max-width: 130px;
+    }
+  }
+  
+  .home-page-silver-gold .silver .text-holder h3 {
+    margin-bottom: 10px;
+    color: #000;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  @media (max-width: 321px) {
+    .home-page-silver-gold .silver .text-holder h3 {
+      font-size: 20px;
+    }
+  }
+  
+  .home-page-silver-gold .silver .text-holder p {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home-page-silver-gold a {
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    color: #000;
+  }
+  
+  @media (max-width: 991px) {
+    .home-page-silver-gold a {
+      font-size: 18px;
+    }
+  }
+  
+  .home-page-current-special h1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home-page-current-special h1 a {
+    text-align: center;
+    font-size: 40px;
+    color: #001d3d;
+    font-weight: 600;
+    letter-spacing: -2.5px;
+  }
+  
+  .home-page-current-special .row-t .content-t {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px auto;
+  }
+  
+  .home-page-current-special .row-t .content-t img {
+    align-self: center;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin: 25px auto 30px auto;
+  }
+  
+  .home-page-current-special .row-t .content-t .short-desc a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #121212;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add {
+    display: flex;
+    justify-content: center;
+    padding-left: 32px;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add .price {
+    margin-bottom: 0px;
+    line-height: 0;
+    place-self: center;
+    display: flex;
+    height: 30px;
+    align-items: center;
+    background-color: #ffb642;
+    position: relative;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add .price a {
+    align-self: center;
+    padding: 0px 10px;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add .price del {
+    position: absolute;
+    top: -15px;
+    display: initial !important;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add .price del .woocommerce-Price-amount {
+    display: initial !important;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add .price .woocommerce-Price-amount {
+    color: #000;
+    align-items: center;
+    margin: 15px 10px;
+    font-weight: 500;
+    display: flex;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add .add-links-wrap .add-links {
+    display: flex;
+    height: 30px;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add .add-links-wrap .add-links .viewcart-style-1 {
+    background-color: #001d3d;
+    color: #fff;
+    border: none;
+    border-radius: 0px !important;
+    text-transform: capitalize;
+    font-weight: 500;
+    height: 30px;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add .add-links-wrap .add-links .yith-wcwl-add-to-wishlist span {
+    color: transparent !important;
+    border-color: none !important;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add .add-links-wrap .add-links .yith-wcwl-add-to-wishlist .yith-wcwl-add-button .add_to_wishlist {
+    border: none !important;
+    border-radius: 0 !important;
+    height: 30px;
+    color: #ffb642;
+    font-weight: bold;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add .add-links-wrap .add-links .yith-wcwl-add-to-wishlist .yith-wcwl-add-button .add_to_wishlist:hover {
+    color: red;
+  }
+  
+  .home-page-current-special .row-t .content-t .holder-price-add .add-links-wrap .quickview {
+    display: none;
+  }
+  
+  .home-page-great-deals {
+    background-color: #ffb642;
+    height: 180px;
+    display: flex;
+  }
+  
+  @media (max-width: 992px) {
+    .home-page-great-deals {
+      height: auto !important;
+      padding: 30px 0;
+    }
+  }
+  
+  .home-page-great-deals .container {
+    place-self: center;
+  }
+  
+  .home-page-great-deals .container .t-flex {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+  }
+  
+  @media (max-width: 992px) {
+    .home-page-great-deals .container .t-flex {
+      padding: 10px 0;
+      margin-left: 25%;
+      justify-content: left;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home-page-great-deals .container .t-flex {
+      margin-left: 0px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .home-page-great-deals .container .t-flex {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  
+  .home-page-great-deals .container .t-flex img {
+    height: 74px;
+    width: 74px;
+    margin: auto;
+  }
+  
+  @media (max-width: 576px) {
+    .home-page-great-deals .container .t-flex img {
+      height: 54px;
+      width: 54px;
+    }
+  }
+  
+  .home-page-great-deals .container .t-flex .flex-holder {
+    display: flex;
+    margin-left: 10px;
+  }
+  
+  .home-page-great-deals .container .t-flex .flex-holder .text-holder {
+    align-self: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .home-page-great-deals .container .t-flex .flex-holder .text-holder p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #001d3d;
+    display: contents;
+  }
+  
+  @media (max-width: 576px) {
+    .home-page-great-deals .container .t-flex .flex-holder .text-holder p {
+      font-size: 19px;
+    }
+  }
+  
+  .home-page-great-deals .vertical-blue-line {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 1px;
+    height: 100%;
+    background-color: #001d3d;
+  }
+  
+  @media (max-width: 992px) {
+    .home-page-great-deals .vertical-blue-line {
+      display: none;
+    }
+  }
+  
+  .separated-see-all {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .separated-see-all a {
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #001d3d;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    transition: all .2s ease-in;
+  }
+  
+  .separated-see-all a:hover {
+    background-color: #ffb642;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .home-page-buttons {
+    margin: 50px 0;
+    background: linear-gradient(90deg, #ffb642 40%, white 40%, white 60%, #d8d8d8 60%);
+    letter-spacing: -1px;
+  }
+  
+  @media (max-width: 991px) {
+    .home-page-buttons {
+      background: linear-gradient(180deg, #ffb642 50%, #d8d8d8 50%);
+    }
+  }
+  
+  .home-page-buttons .gold {
+    display: flex;
+    justify-content: space-between;
+    min-height: 180px;
+    background-color: #ffb642;
+  }
+  
+  .home-page-buttons .gold .menu-holder {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: right;
+  }
+  
+  @media (max-width: 410px) {
+    .home-page-buttons .gold .menu-holder {
+      margin: auto;
+      text-align: center;
+    }
+  }
+  
+  .home-page-buttons .gold .menu-holder a {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    display: inline-block;
+    transition: all 0.2s ease-in;
+  }
+  
+  .home-page-buttons .gold .menu-holder a:hover {
+    text-decoration: none;
+    color: #001d3d;
+  }
+  
+  .home-page-buttons .gold .menu-holder ul {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+  .home-page-buttons .gold .menu-holder ul li a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 1px;
+    text-transform: capitalize;
+    transition: all 0.2s ease-in;
+  }
+  
+  .home-page-buttons .gold .menu-holder ul li a:hover {
+    text-decoration: none;
+    color: #001d3d;
+  }
+  
+  .home-page-buttons .gold .menu-holder ul li .bold {
+    font-weight: 600;
+  }
+  
+  .home-page-buttons .gold img {
+    margin: 20px;
+  }
+  
+  @media (max-width: 410px) {
+    .home-page-buttons .gold img {
+      display: none;
+    }
+  }
+  
+  .home-page-buttons .silver {
+    display: flex;
+    justify-content: space-between;
+    min-height: 180px;
+    position: relative;
+    background-color: #d8d8d8;
+  }
+  
+  .home-page-buttons .silver .menu-holder {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  
+  @media (max-width: 410px) {
+    .home-page-buttons .silver .menu-holder {
+      margin: auto;
+      text-align: center;
+    }
+  }
+  
+  .home-page-buttons .silver .menu-holder a {
+    color: #000;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    display: inline-block;
+    transition: all 0.2s ease-in;
+  }
+  
+  .home-page-buttons .silver .menu-holder a:hover {
+    text-decoration: none;
+    color: #001d3d;
+  }
+  
+  .home-page-buttons .silver .menu-holder ul {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  
+  .home-page-buttons .silver .menu-holder ul li a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 1px;
+    text-transform: capitalize;
+    transition: all 0.2s ease-in;
+  }
+  
+  .home-page-buttons .silver .menu-holder ul li a:hover {
+    text-decoration: none;
+    color: #001d3d;
+  }
+  
+  .home-page-buttons .silver .menu-holder ul li .bold {
+    font-weight: 600;
+  }
+  
+  .home-page-buttons .silver img {
+    order: 2;
+    margin: 20px;
+  }
+  
+  @media (max-width: 410px) {
+    .home-page-buttons .silver img {
+      display: none;
+    }
+  }
+  
+  .home-page-testimonials {
+    background-color: #001d3d;
+    padding-top: 65px;
+    padding-bottom: 0px;
+  }
+  
+  @media (max-width: 375px) {
+    .home-page-testimonials {
+      padding-top: 40px;
+    }
+  }
+  
+  .home-page-testimonials h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home-page-testimonials .bulliondeals-testimonials-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    width: 90%;
+    padding: 0px 0px;
+    margin: auto;
+    width: 1100px;
+  }
+  
+  @media (max-width: 1170px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider {
+      width: 959px;
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider {
+      width: 750px;
+    }
+  }
+  
+  @media (max-width: 965px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider {
+      width: 660px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider {
+      width: 320px;
+    }
+  }
+  
+  @media (max-width: 321px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider {
+      width: 300px;
+    }
+  }
+  
+  .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home {
+    background-color: #fff;
+    height: 250px;
+    width: 330px !important;
+    display: flex !important;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+  }
+  
+  @media (max-width: 1170px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home {
+      width: 290px !important;
+    }
+  }
+  
+  @media (max-width: 1100px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home {
+      width: 360px !important;
+    }
+  }
+  
+  @media (max-width: 965px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home {
+      width: 310px !important;
+    }
+  }
+  
+  @media (max-width: 380px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home {
+      width: 250px !important;
+      min-height: 290px !important;
+    }
+  }
+  
+  .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home p {
+    font-size: 11px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+    line-height: 1.4;
+  }
+  
+  .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #000;
+  }
+  
+  .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home .feedback-and-signature {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  
+  .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home .feedback-and-signature p {
+    flex: 1;
+    line-height: 0.7;
+    font-family: 'Holimount', sans-serif;
+    font-size: 2rem;
+    text-align: right;
+  }
+  
+  .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home .feedback-and-signature .stars {
+    flex: 2;
+  }
+  
+  .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home .feedback-and-signature .stars i {
+    color: #ffc21c;
+    font-size: 1.25rem;
+  }
+  
+  .home-page-testimonials .bulliondeals-testimonials-slider .slick-prev {
+    left: -25px;
+  }
+  
+  @media (max-width: 768px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider .slick-prev {
+      display: inline-block !important;
+    }
+  }
+  
+  @media (max-width: 380px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider .slick-prev {
+      left: 0px;
+    }
+  }
+  
+  .home-page-testimonials .bulliondeals-testimonials-slider .slick-next {
+    right: -25px;
+  }
+  
+  @media (max-width: 768px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider .slick-next {
+      display: inline-block !important;
+    }
+  }
+  
+  @media (max-width: 380px) {
+    .home-page-testimonials .bulliondeals-testimonials-slider .slick-next {
+      right: 0px;
+    }
+  }
+  
+  .slick-slide {
+    margin: 0px 20px;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #fff;
+  }
+  
+  .footer-wrapper-tesla {
+    background-color: #001d3d;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media (max-width: 500px) {
+    .footer-wrapper-tesla {
+      display: inherit;
+    }
+  }
+  
+  .footer-wrapper-tesla svg {
+    max-width: 150px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inherit;
+    padding-top: 65px;
+  }
+  
+  @media (max-width: 375px) {
+    .footer-wrapper-tesla svg {
+      padding-top: 40px;
+    }
+  }
+  
+  .footer-wrapper-tesla h3 {
+    color: #fff;
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 991px) {
+    .footer-wrapper-tesla h3 {
+      margin-bottom: 3.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer-wrapper-tesla h3 {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 414px) {
+    .footer-wrapper-tesla h3 {
+      margin-bottom: 3rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .footer-wrapper-tesla h3 {
+      margin-bottom: 2.5rem;
+    }
+  }
+  
+  .footer-wrapper-tesla .footer-menu {
+    margin-bottom: 0rem;
+  }
+  
+  @media (max-width: 320px) {
+    .footer-wrapper-tesla .footer-menu {
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .footer-wrapper-tesla .footer-menu ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  @media (max-width: 991px) {
+    .footer-wrapper-tesla .footer-menu ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .footer-wrapper-tesla .footer-menu ul li {
+    display: inline;
+    margin-right: 3rem;
+  }
+  
+  @media (max-width: 1170px) {
+    .footer-wrapper-tesla .footer-menu ul li {
+      margin-right: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .footer-wrapper-tesla .footer-menu ul li {
+      margin-right: 0rem;
+      font-size: 20px;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media (max-width: 414px) {
+    .footer-wrapper-tesla .footer-menu ul li {
+      font-size: 16px;
+      margin-bottom: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .footer-wrapper-tesla .footer-menu ul li {
+      font-size: 16px;
+      margin-bottom: 1rem;
+    }
+  }
+  
+  .footer-wrapper-tesla .footer-menu ul li:last-child {
+    margin-right: 0px;
+  }
+  
+  .footer-wrapper-tesla .footer-menu ul li a {
+    color: #fff;
+    font-size: 15px;
+    position: relative;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+  }
+  
+  .footer-wrapper-tesla .footer-menu ul li a:hover {
+    color: #ffb642;
+  }
+  
+  .footer-wrapper-tesla #footer-menu {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .footer-wrapper-tesla #footer-menu .nav-item {
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 991px) {
+    .footer-wrapper-tesla #footer-menu {
+      flex-direction: column;
+    }
+  }
+  
+  .footer-wrapper-tesla #footer-menu #navbarNavDropdown {
+    width: 100%;
+  }
+  
+  .footer-wrapper-tesla .social-media {
+    display: flex;
+    place-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 320px) {
+    .footer-wrapper-tesla .social-media {
+      margin-bottom: 30px;
+      margin-top: 30px;
+    }
+  }
+  
+  .footer-wrapper-tesla .social-media a i {
+    font-size: 2.25rem;
+    color: #fff;
+    margin: 0rem 0.5rem;
+    transition: all 0.4s;
+  }
+  
+  @media (max-width: 320px) {
+    .footer-wrapper-tesla .social-media a i {
+      font-size: 2rem;
+    }
+  }
+  
+  .footer-wrapper-tesla .social-media a i:hover {
+    color: #ffb642;
+  }
+  
+  .footer-wrapper-tesla .text-bottom {
+    display: flex;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-wrapper-tesla .text-bottom {
+      flex-direction: column;
+    }
+  }
+  
+  .footer-wrapper-tesla .text-bottom .left {
+    flex: 1;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-wrapper-tesla .text-bottom .left {
+      text-align: center;
+    }
+  }
+  
+  .footer-wrapper-tesla .text-bottom .right {
+    flex: 1;
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-wrapper-tesla .text-bottom .right {
+      text-align: center;
+    }
+  }
+  
+  .yith-wcwl-add-to-wishlist a, .yith-wcwl-add-to-wishlist span {
+    border-color: transparent;
+    color: transparent;
+  }
+  
+  .yith-wcwl-add-to-wishlist a, .yith-wcwl-add-to-wishlist span {
+    border: none;
+    color: transparent;
+    color: #ffb642;
+  }
+  
+  .add_to_cart_button::before {
+    font-family: fontAwesome;
+    content: '\f0a9\00a0';
+  }
+  
+  .home-page-agents-products {
+    background-color: #001225;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  @media (max-width: 1170px) {
+    .home-page-agents-products {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .home-page-agents-products {
+      display: none;
+    }
+  }
+  
+  .home-page-agents-products .flex-holder {
+    width: 285px;
+    min-height: 75px;
+    display: flex;
+  }
+  
+  @media (max-width: 1170px) {
+    .home-page-agents-products .flex-holder {
+      margin: 10px auto;
+    }
+  }
+  
+  .home-page-agents-products .flex-holder img {
+    max-width: 46px;
+    max-height: 50px;
+    align-self: center;
+  }
+  
+  .home-page-agents-products .flex-holder .gold-line {
+    width: 1px;
+    height: 50px;
+    place-self: center;
+    background-color: #ffb642;
+    margin: 0 10px;
+  }
+  
+  .home-page-agents-products .flex-holder .text-holder {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  
+  .home-page-agents-products .flex-holder .text-holder h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home-page-agents-products .flex-holder .text-holder p {
+    color: #fff;
+    font-size: 11px;
+    margin-bottom: 5px;
+    line-height: 1;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .home-page-agents-products .flex-holder .btn-tesla {
+    padding: 3px 15px;
+    background-color: #ffb642;
+    height: 100%;
+    margin: auto auto 10px 10px;
+    color: #000;
+    min-width: 65px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 1169px) {
+    .home-page-agents-products .flex-holder .btn-tesla {
+      margin: auto 10px auto auto;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .home-page-agents-products .flex-holder .btn-tesla {
+      margin: auto 2px auto auto;
+    }
+  }
+  
+  .pagination {
+    display: flex;
+    width: 100%;
+    place-content: center;
+    float: inherit;
+  }
+  
+  .pagination .btn-whole {
+    border: none;
+  }
+  
+  .pagination .btn-whole a {
+    color: #000;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: #001d3d;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    transition: all .2s ease-in;
+    min-width: 152px;
+  }
+  
+  /*Dropdown Css*/
+  @media (min-width: 991px) {
+    .dropdown:hover > .dropdown-menu {
+      display: block;
+      margin: 0;
+    }
+    .dropdown-submenu {
+      position: relative;
+    }
+    .dropdown-submenu > .dropdown-menu {
+      top: 0;
+      left: 100%;
+      margin-top: -6px;
+      margin-left: -1px;
+      border-radius: 0 6px 6px 6px;
+    }
+    .dropdown-submenu:hover > .dropdown-menu {
+      display: block;
+    }
+    .dropdown-submenu > a:after {
+      display: block;
+      content: " ";
+      float: right;
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 5px 0 5px 5px;
+      border-left-color: #ccc;
+      margin-top: 5px;
+      margin-right: -10px;
+    }
+    .dropdown-submenu:hover > a:after {
+      border-left-color: #fff;
+    }
+    .dropdown-submenu.pull-left {
+      float: none;
+    }
+    .dropdown-submenu.pull-left > .dropdown-menu {
+      left: -100%;
+      margin-left: 10px;
+      border-radius: 6px 0 6px 6px;
+    }
+    /*./Dropdown Css*/
+  }
+  
+  .content-area {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  @media (min-width: 576px) {
+    .content-area {
+      max-width: 540px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .content-area {
+      max-width: 720px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .content-area {
+      max-width: 960px;
+    }
+  }
+  
+  @media (min-width: 1170px) {
+    .content-area {
+      max-width: 1140px;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */
