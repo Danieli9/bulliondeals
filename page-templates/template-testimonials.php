@@ -57,11 +57,7 @@ get_header();
 				<p><?php the_sub_field( 'customer_feedback' ); ?></p>
 				<div class="feedback-and-signature">
 					<div class="stars">
-					<i class="fas fa-star rating"></i>
-					<i class="fas fa-star rating"></i>
-					<i class="fas fa-star rating"></i>
-					<i class="fas fa-star rating"></i>
-					<i class="fas fa-star rating"></i>	
+						<div class="c--reviews__stars">★★★★★</div>
 					</div>
 					<p><?php the_sub_field( 'name_of_customer' ); ?></p>
 				</div>

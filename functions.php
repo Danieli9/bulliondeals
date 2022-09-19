@@ -271,7 +271,16 @@ function wps_deregister_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'wps_deregister_styles', 100 );
 
+// disable cf7 css
+function rjs_lwp_contactform_css_js() {
+    global $post;
+    if( is_a( $post, 'WP_Post' ) && has_shortcode( $post->post_content, 'contact-form-7') ) {
+        wp_enqueue_script('contact-form-7');
+         wp_enqueue_style('contact-form-7');
 
-
-
-
+    }else{
+        wp_dequeue_script( 'contact-form-7' );
+        wp_dequeue_style( 'contact-form-7' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'rjs_lwp_contactform_css_js');
