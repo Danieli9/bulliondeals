@@ -5,17 +5,17 @@ add_action('wp_enqueue_scripts', 'porto_child_css', 1001);
 // Load CSS
 function porto_child_css() {
     // porto child theme styles
-    wp_deregister_style( 'styles-child' );
-    wp_register_style( 'styles-child', get_stylesheet_directory_uri() . '/style.css' );
-    wp_enqueue_style( 'styles-child' );
-    wp_register_style( 'styles-child-tesla', get_stylesheet_directory_uri() . '/css/style.css' );
-    wp_enqueue_style( 'styles-child-tesla' );
-    wp_register_style( 'styles-child-tesla-new', get_stylesheet_directory_uri() . '/css-new/style.css' );
-    wp_enqueue_style( 'styles-child-tesla-new' );
-    wp_register_style( 'styles-child-slick', get_stylesheet_directory_uri() . '/css/slick.css' );
-    wp_enqueue_style( 'styles-child-slick' );
-    wp_register_style( 'styles-child-slick-theme', get_stylesheet_directory_uri() . '/css/slick-theme.css' );
-    wp_enqueue_style( 'styles-child-slick-theme' );
+    wp_deregister_style( 'git_styles-child' );
+    wp_register_style( 'git_styles-child', get_stylesheet_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'git_styles-child' );
+    wp_register_style( 'git_styles-child-tesla', get_stylesheet_directory_uri() . '/css/style.css' );
+    wp_enqueue_style( 'git_styles-child-tesla' );
+    wp_register_style( 'git_styles-child-tesla-new', get_stylesheet_directory_uri() . '/css-new/style.css' );
+    wp_enqueue_style( 'git_styles-child-tesla-new' );
+    wp_register_style( 'git_styles-child-slick', get_stylesheet_directory_uri() . '/css/slick.css' );
+    wp_enqueue_style( 'git_styles-child-slick' );
+    wp_register_style( 'git_styles-child-slick-theme', get_stylesheet_directory_uri() . '/css/slick-theme.css' );
+    wp_enqueue_style( 'git_styles-child-slick-theme' );
 
 
     if (is_rtl()) {
