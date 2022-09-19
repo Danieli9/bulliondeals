@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Holimount';
+    src: url('/fonts/Holimount.woff2') format('woff2'),
+        url('/fonts/Holimount.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.wrapper {
+    margin: 130px auto;
+}
