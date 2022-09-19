@@ -1,0 +1,798 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif
+}
+
+#header .logo img {
+    z-index: 99;
+    position: relative;
+    max-width: 120%
+}
+
+.leading-independent-con {
+    background: #e08518;
+    font-size: 20.22px;
+    text-align: right;
+    color: #fff;
+    font-weight: 200 !important;
+    line-height: 40px;
+    margin-top: -45px;
+    position: relative
+}
+
+.leading-independent-con strong {
+    font-weight: 600 !important
+}
+
+.leading-independent-con #custom_html-2 {
+    margin-bottom: 0 !important;
+    padding: 5px 0
+}
+
+.no-breadcrumbs .main-content,
+body.woocommerce .main-content {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important
+}
+
+.header-corporate .header-right-bottom .menu-menu-top #main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+.header-corporate .header-right-bottom .menu-menu-top #main-menu li {
+    font-size: 13px;
+    color: #131313;
+    font-family: Montserrat, sans-serif;
+    font-weight: 300
+}
+
+.header-corporate .header-right-bottom .menu-menu-top #main-menu li a {
+    color: #131313
+}
+
+#content .rev_slider_wrapper li.tp-revslider-slidesli {
+    border-radius: 0 !important
+}
+
+#header .header-main .header-contact,
+#main-menu .mega-menu>li.menu-item,
+#main-menu .mega-menu>li.menu-item>a {
+    font-weight: 300
+}
+
+#header.header-corporate .share-links a {
+    border-radius: 3px !important;
+    box-shadow: none;
+    color: #e08518;
+    border: 1px solid #e08518
+}
+
+.buy-gold-and-silver {
+    padding: 0 12%
+}
+
+.buy-gold-con .wpb_wrapper.vc_column-inner {
+    background: rgba(23, 33, 44, 1);
+    background: -moz-linear-gradient(left, rgba(23, 33, 44, 1) 0, rgba(92, 125, 160, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0, rgba(23, 33, 44, 1)), color-stop(100%, rgba(92, 125, 160, 1)));
+    background: -webkit-linear-gradient(left, rgba(23, 33, 44, 1) 0, rgba(92, 125, 160, 1) 100%);
+    background: -o-linear-gradient(left, rgba(23, 33, 44, 1) 0, rgba(92, 125, 160, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(23, 33, 44, 1) 0, rgba(92, 125, 160, 1) 100%);
+    background: linear-gradient(to right, rgba(23, 33, 44, 1) 0, rgba(92, 125, 160, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#17212c', endColorstr='#5c7da0', GradientType=1);
+    min-height: 345px;
+    padding: 0 0 0 184px !important
+}
+
+.buy-silver-con .wpb_wrapper.vc_column-inner {
+    border: 1px solid #d4d4d4;
+    padding: 0 0 0 42px !important;
+    min-height: 345px
+}
+
+.gold-img-con img {
+    position: absolute;
+    left: -189px;
+    top: 65px
+}
+
+.silver-image-con img {
+    position: absolute;
+    right: -165px;
+    top: 5px
+}
+
+.gold-heading-con {
+    margin-bottom: 10px;
+    margin-top: 53px
+}
+
+.online-ordring-color {
+    margin-bottom: 14px
+}
+
+.online-ordring-color p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 13px;
+    padding-bottom: 15px !important
+}
+
+.gold-heading-con {
+    font-weight: 600 !important
+}
+
+.buy-gold-and-silver .shop-now-button button {
+    background: 0 0;
+    color: #fff !important;
+    border: 1px solid #fff;
+    padding: 10px 18px;
+    text-transform: uppercase
+}
+
+.buy-gold-and-silver .shop-now-button button:hover {
+    text-decoration: none;
+    background: #d97914;
+    color: #fff;
+    border: 1px solid #d97914
+}
+
+.guarante-products-color {
+    margin-bottom: 15px
+}
+
+.guarante-products-color p {
+    font-size: 16px;
+    color: #102030;
+    font-weight: 300;
+    line-height: 13px;
+    padding-bottom: 15px !important
+}
+
+.shop-now-button-silver button {
+    padding: 10px 18px !important
+}
+
+.oran-heading-con {
+    margin-bottom: 0 !important
+}
+
+.want-to-sell-main {
+    padding: 25px 0 !important;
+    margin-top: 60px !important;
+    margin-bottom: 30px !important
+}
+
+.owned-operated-con {
+    padding-left: 45px
+}
+
+.want-to-sell-main h2.want-to-sell {
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+    text-align: center
+}
+
+.want-to-sell-main h2 {
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+    text-transform: capitalize
+}
+
+.want-to-sell-main p {
+    color: #fff;
+    font-size: 14px;
+    margin: 10px 0 !important;
+    font-weight: 300
+}
+
+.vc_btn3-container.want-to-sell-button.vc_btn3-center,
+.want-to-sell-content {
+    margin: 0
+}
+
+.vc_btn3-container.want-to-sell-button.vc_btn3-center button {
+    background: 0 0;
+    color: #fff !important;
+    border: 1px solid #fff;
+    padding: 10px 18px;
+    text-transform: uppercase
+}
+
+.bullion-deals-heading {
+    font-size: 32px;
+    color: #131313;
+    font-weight: 400;
+    margin-top: 40px
+}
+
+.bullion-deals-content p {
+    font-style: 14px;
+    color: #646464;
+    font-weight: 300
+}
+
+.bullion-deals-button-one {
+    width: 100%;
+    float: left
+}
+
+.bullion-deals-button-one button {
+    font-size: 14.63px !important;
+    color: #282828 !important;
+    font-weight: 300;
+    border: 1px solid #282828 !important;
+    border-radius: 0 !important;
+    padding: 10px 18px !important
+}
+
+.bullion-deals-button-two button {
+    font-size: 14.63px !important;
+    color: #fff !important;
+    font-weight: 300;
+    border: 1px solid #282828 !important;
+    border-radius: 0 !important;
+    background: #313131 !important;
+    padding: 11px 21px !important;
+    text-transform: uppercase !important
+}
+
+.free-insurance-ship p {
+    font-size: 13.8px;
+    color: #fff;
+    font-weight: 300
+}
+
+.free-insurance-image-con {
+    margin: 21px 0 15px
+}
+
+.great-bullion-deals {
+    border-left: 1px solid #edbb80;
+    border-right: 1px solid #edbb80
+}
+
+.free-insurance-outer-con .wpb_wrapper.vc_column-inner {
+    padding: 0 !important
+}
+
+.free-insurance-outer-con .vc_column_container.col-md-4 {
+    padding: 30px 0 10px
+}
+
+.footer-top {
+    background: #e08518
+}
+
+.footer-top-inner img {
+    float: left;
+    margin-right: 8px
+}
+
+.footer-top-inner img:last-child {
+    margin-right: 20px
+}
+
+.footer-top-inner {
+    font-size: 15px;
+    color: #eaeaea;
+    font-weight: 300;
+    padding: 25px 0 25px 340px;
+    line-height: 17px
+}
+
+#footer .logo img {
+    max-width: 100% !important;
+    margin-top: -74px
+}
+
+#footer .footer-bottom .container .footer-left {
+    width: 40%
+}
+
+#footer .footer-bottom .container .footer-right {
+    text-align: left
+}
+
+#menu-footer-menu li a {
+    color: #292f32 !important;
+    font-size: 15px !important;
+    font-weight: 300 !important
+}
+
+#menu-footer-menu li:after {
+    content: "" !important
+}
+
+#footer .footer-bottom .container>div {
+    vertical-align: top
+}
+
+.footer-right p {
+    font-size: 13px !important;
+    color: #b6b7b8 !important;
+    font-weight: 300 !important;
+    margin-top: 10px !important
+}
+
+.product-image img {
+    width: auto !important
+}
+
+.product-image {
+    min-height: 240px !important;
+    padding: 10px 60px 0;
+    border: none
+}
+
+.woocommerce-loop-product__title {
+    font-size: 16px !important;
+    color: #282828 !important;
+    font-weight: 400;
+    padding: 10px 20px
+}
+
+.woocommerce-Price-amount {
+    font-size: 16px !important;
+    color: #e08518;
+    font-weight: 400
+}
+
+.product-inner {
+    background: #fff;
+    padding: 30px 10px;
+    font-weight: 300;
+    font-size: 12px;
+    color: #000
+}
+
+.product-inner .product-loop-title h3 {
+    padding: 0 40px
+}
+
+.product-inner .product-image {
+    margin: 0 !important
+}
+
+.product-inner .rating-wrap {
+    display: none !important
+}
+
+.add-links.clearfix .add_to_cart_button::before,
+.archive li.home:first-child,
+.leading-independent-con.home_page,
+.page-id-107 li.home:first-child,
+.page-id-109 li.home:first-child,
+.page-id-112 li.home:first-child,
+.single-product li.home:first-child {
+    display: none
+}
+
+.product-inner .price {
+    margin: 8px 0 10px !important
+}
+
+.product-inner .add-links-wrap .add-links.clearfix {
+    margin: 0
+}
+
+.product-inner .add-links-wrap .add-links.clearfix .add_to_cart_button {
+    padding: 10px 30px;
+    border-radius: 0 !important;
+    border-color: #434343;
+    font-size: 15px;
+    font-weight: 400;
+    height: auto;
+    line-height: normal
+}
+
+.product-inner .add-links-wrap .add-links.clearfix .add_to_cart_button:hover,
+.product-inner:hover .add-links-wrap .add-links.clearfix .add_to_cart_button {
+    border-color: #e08518
+}
+
+.product-inner .quickview,
+.product-inner .yith-wcwl-add-button .add_to_wishlist {
+    border-radius: 0 !important;
+    border-color: #e08518;
+    background: #e08518;
+    padding: 0;
+    line-height: 42px;
+    height: 44px
+}
+
+.product-inner .quickview::before,
+.product-inner .yith-wcwl-add-button .add_to_wishlist::before {
+    font-size: 15px;
+    color: #fff
+}
+
+.bg01 {
+    background: url(https://bulliondeals.co.nz//wp-content/uploads/2018/04/want-to-sell-bg-img.png) no-repeat;
+    background-size: cover
+}
+
+@media only screen and (max-width:1024px) {
+    .leading-independent-con {
+        margin-top: 0 !important
+    }
+
+    #header .logo img {
+        width: 100% !important
+    }
+
+    .top-header-con h1 {
+        font-size: 38px !important
+    }
+
+    .silver-image-con img {
+        position: absolute !important;
+        right: -146px !important;
+        top: 54px !important;
+        width: 70% !important
+    }
+
+    .gold-img-con img {
+        left: -144px !important;
+        top: 65px !important;
+        width: 93% !important
+    }
+}
+
+@media only screen and (max-width:980px) {
+    .buy-gold-con .wpb_wrapper.vc_column-inner {
+        padding: 0 0 0 127px !important
+    }
+
+    .gold-img-con img {
+        left: -84px !important;
+        top: 76px !important;
+        max-width: 75% !important
+    }
+
+    .silver-image-con img {
+        right: -90px !important;
+        top: 81px !important;
+        max-width: 56% !important
+    }
+}
+
+@media only screen and (max-width:800px) {
+    .buy-gold-con .wpb_wrapper.vc_column-inner {
+        padding: 0 0 0 127px !important
+    }
+
+    .gold-img-con img {
+        left: -84px !important;
+        top: 76px !important;
+        max-width: 75% !important
+    }
+
+    .silver-image-con img {
+        right: -90px !important;
+        top: 81px !important;
+        max-width: 56% !important
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .top-header-con h1 {
+        font-size: 29px !important;
+        line-height: 40px !important
+    }
+
+    .leading-independent-con {
+        margin-top: 0 !important
+    }
+
+    .buy-gold-con .wpb_wrapper.vc_column-inner {
+        padding: 0 0 0 127px !important
+    }
+
+    .gold-img-con img {
+        left: -84px !important;
+        top: 76px !important;
+        max-width: 75% !important
+    }
+
+    .silver-image-con img {
+        right: -90px !important;
+        top: 81px !important;
+        max-width: 56% !important
+    }
+
+    .gold-heading-con {
+        font-weight: 600 !important;
+        font-size: 24px !important
+    }
+
+    .online-ordring-color p {
+        line-height: 21px !important
+    }
+
+    .guarante-products-color p {
+        line-height: 31px !important
+    }
+}
+
+@media only screen and (max-width:736px) {
+    .buy-gold-con .wpb_wrapper.vc_column-inner {
+        padding: 0 0 0 226px !important
+    }
+}
+
+@media only screen and (max-width:732px) {
+    .footer-top-inner {
+        padding: 25px 0 25px 213px !important
+    }
+
+    .buy-gold-con .wpb_wrapper.vc_column-inner {
+        padding: 0 0 0 226px !important
+    }
+}
+
+@media only screen and (max-width:667px) {
+    .product-image {
+        min-height: 140px !important
+    }
+
+    .great-bullion-deals {
+        border: none !important
+    }
+
+    .buy-gold-con .wpb_wrapper.vc_column-inner {
+        padding: 0 0 0 176px !important
+    }
+
+    .gold-img-con img {
+        left: -84px !important;
+        top: 76px !important;
+        max-width: 62% !important
+    }
+
+    .silver-image-con img {
+        right: -90px !important;
+        top: 81px !important;
+        max-width: 56% !important
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .product-image {
+        min-height: 150px !important
+    }
+
+    .footer-top-inner {
+        padding: 25px 0 25px 247px !important
+    }
+
+    .gold-img-con img {
+        position: absolute !important;
+        left: -51px !important;
+        top: 87px !important;
+        max-width: 59% !important
+    }
+
+    .silver-image-con img {
+        position: absolute;
+        right: -70px !important;
+        top: 28px !important;
+        max-width: 50% !important
+    }
+
+    .top-header-con h1 {
+        line-height: 33px !important;
+        font-size: 22px !important
+    }
+
+    .great-bullion-deals {
+        border: none !important
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    .gold-img-con img,
+    .silver-image-con img {
+        position: absolute;
+        max-width: 50% !important
+    }
+
+    #header .logo img {
+        width: 100%
+    }
+
+    .leading-independent-con {
+        margin-top: 0 !important
+    }
+
+    .buy-gold-and-silver {
+        padding: 0 !important
+    }
+
+    .gold-img-con img {
+        left: 12px !important;
+        top: 90px !important
+    }
+
+    .silver-image-con img {
+        right: 10px !important;
+        top: 143px !important
+    }
+
+    .product-image {
+        min-height: auto;
+        padding: 0;
+        border: none
+    }
+
+    .product-inner .product-loop-title h3 {
+        padding: 0 !important
+    }
+
+    .product-inner .add-links-wrap .add-links.clearfix .add_to_cart_button {
+        padding: 10px !important
+    }
+
+    .footer-top-inner {
+        padding: 25px 0 25px 114px !important
+    }
+
+    .top-header-con h1 {
+        line-height: normal !important;
+        font-size: 13px !important
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .buy-gold-con .wpb_wrapper.vc_column-inner {
+        padding: 0 0 0 220px !important
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .gold-img-con img {
+        max-width: 42% !important
+    }
+
+    .buy-gold-con .wpb_wrapper.vc_column-inner {
+        padding: 0 0 0 158px !important
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .buy-gold-con .wpb_wrapper.vc_column-inner {
+        padding: 0 0 0 158px !important
+    }
+
+    .buy-gold-and-silver .vc_custom_heading.gold-heading-con.align-left {
+        font-size: 25px !important
+    }
+
+    .top-header-con h1 {
+        line-height: normal !important;
+        font-size: 13px !important
+    }
+}
+
+.sell_bullion_now_btn button {
+    border: 1px solid #fff !important;
+    text-transform: uppercase
+}
+
+.deals_chart_text p {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #000;
+    line-height: 34px;
+    width: 298px;
+    font-weight: 500
+}
+
+.deals_chart_text {
+    margin-bottom: 5px
+}
+
+button.woocommerce-Button.button {
+    margin-top: 15px
+}
+
+.aaran_text p {
+    font-size: 14px;
+    color: #fff
+}
+
+.score_mp_img img {
+    height: 415px
+}
+
+.c_specials_p {
+    color: #000
+}
+
+.want_sell_text {
+    margin-bottom: 12px
+}
+
+.want_sell_text p {
+    font-size: 14px;
+    color: #fff;
+    width: 77%;
+    margin: 0 auto;
+    text-align: center
+}
+
+h3.woocommerce-loop-product__title {
+    min-height: 44px
+}
+
+h1.vc_custom_heading.c_specials {
+    margin-bottom: 0;
+    color: #131313 !important
+}
+
+h1.vc_custom_heading.c_specials p {
+    color: #131313 !important
+}
+
+.timer_text p {
+    font-size: 10px;
+    color: #fff
+}
+
+.wpb_text_column.wpb_content_element.timer_text {
+    margin-bottom: 10px
+}
+
+.aron_title {
+    margin-top: 18px;
+    margin-bottom: 3px
+}
+
+.testimonial_rotator .testimonial_rotator_slide_title,
+.testimonial_rotator_quote {
+    color: #fff
+}
+
+.testimonial_rotator_nav i {
+    color: #fff !important
+}
+
+h4.vc_custom_heading.aron_title {
+    color: #fff
+}
+
+.add_new {
+    font-size: 46px !important
+}
+
+.home_page #custom_html-4 {
+    display: none;
+    margin: 0;
+    padding: 15px;
+    text-align: center
+}
+
+.watermark_hide {
+    position: absolute;
+    width: 130px;
+    height: 30px;
+    right: 17px;
+    border-bottom: 1px solid #ddd;
+    top: 270px;
+    background: #FFF
+}
+
+.symbols_trust {
+    width: 74%;
+    text-align: center;
+    position: relative;
+    top: 18px;
+    display: none;
+}
