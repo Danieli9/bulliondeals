@@ -6,7 +6,7 @@ add_action('wp_enqueue_scripts', 'porto_child_css', 1001);
 function porto_child_css() {
     // porto child theme styles
     wp_register_style( 'main', get_stylesheet_directory_uri() . '/css/main.css' );
-
+    wp_enqueue_style( 'main' );
 
     if (is_rtl()) {
         wp_deregister_style( 'styles-child-rtl' );
