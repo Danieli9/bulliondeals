@@ -1023,9 +1023,9 @@
     flex: 2;
   }
   
-  .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home .feedback-and-signature .stars i {
+  .home-page-testimonials .bulliondeals-testimonials-slider .testimonial-home .feedback-and-signature .stars .c--reviews__stars {
     color: #ffc21c;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
   }
   
   .home-page-testimonials .bulliondeals-testimonials-slider .slick-prev {
@@ -1232,20 +1232,24 @@
     }
   }
   
-  .footer-wrapper-tesla .social-media a i {
-    font-size: 2.25rem;
+  .footer-wrapper-tesla .social-media a svg {
+    width: 35px;
     color: #fff;
     margin: 0rem 0.5rem;
     transition: all 0.4s;
+    fill: #FFF;
+    height: auto;
   }
   
   @media (max-width: 320px) {
-    .footer-wrapper-tesla .social-media a i {
+    .footer-wrapper-tesla .social-media a svg {
+      max-width: 27px;
       font-size: 2rem;
+      color: #fff;
     }
   }
   
-  .footer-wrapper-tesla .social-media a i:hover {
+  .footer-wrapper-tesla .social-media a svg:hover {
     color: #ffb642;
   }
   

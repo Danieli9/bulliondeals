@@ -97,7 +97,7 @@ if ('no' !== $loading_overlay && ('yes' === $loading_overlay || ('yes' !== $load
 				<div class="position-absolute-mini-cart show">
                     <div id="mini-cart" class="mini-cart minicart-arrow-alt effect-fadein-up minicart-style1">
                         <div class="cart-head cart-head4">
-                            <i class="fas fa-shopping-cart" style="font-size: 30px; color: #fff;"></i>
+                                <svg style="fill: #FFF; transform: rotateY(180deg); width: 45px;" version="1.1"  viewBox="0 0 512 512" enable-background="new 0 0 512 512"><path d="m480.5,15.3h-94.4c-9.8,0-18.2,7-20.1,16.6l-16.6,88.2h-317.9c-8.7-0.4-24.2,8.7-19.7,25.9l49.8,179.6c2.5,8.8 10.5,15 19.7,15h251.4c9.8,0 18.2-7 20.1-16.6l51.5-267.5 76.4-.2c11.3,0 20.4-9.1 20.4-20.4-0.1-11.4-9.3-20.6-20.6-20.6z"/><path d="m285,374.6c-33,0-59.9,27.4-59.9,61s26.9,61 59.9,61c33,0 59.9-27.4 59.9-61s-26.9-61-59.9-61z"/><path d="m126.6,374.6c-33,0-59.9,27.4-59.9,61s26.9,61 59.9,61c33,0 59.9-27.4 59.9-61s-26.9-61-59.9-61z"/></svg>
                                 <span class="cart-items">0</span>
                         </div>
                         <div class="cart-popup widget_shopping_cart" style="opacity: 1;">
