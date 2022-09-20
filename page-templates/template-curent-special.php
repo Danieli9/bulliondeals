@@ -52,21 +52,21 @@ get_header();
 			'post_type' => 'product',
 			'posts_per_page' => 9,
 			'paged' => $paged,
-			'_name__like'   => '*Gold*',
 			's' => '-ONEOFF',
-			 'orderby' => 'title', 
+			'orderby' => 'title', 
+				
+			'tax_query'             => array(
+				array(
+					'taxonomy'      => 'product_cat',
+					'terms'         => 309,
+					'operator'      => 'IN' // Possible values are 'IN', 'NOT IN', 'AND'.
+				)
+				),
 			 'meta_query' => array( 
 			 	array(
 			 	'key' => '_stock_status',
 			 	'value' => 'instock'
-			 	),
-			 	array(
-		            'key' => '_price',
-		            'value' => array(20000, 100000),
-		            'compare' => 'BETWEEN',
-		            'type' => 'NUMERIC'
-        		)
-
+			 	)
 			 ));
 			?> 
 			<div class="row row-t">
