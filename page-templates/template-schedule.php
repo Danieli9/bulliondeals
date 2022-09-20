@@ -15,7 +15,7 @@ get_header();
 
 ?>
 
-<div class="faq-header">
+<div class="ss-header">
 	<div class="container">
 		<div class="row">
 			<div class="col-6 text-holder">
@@ -28,12 +28,10 @@ get_header();
 	</div>
 </div>
 
-<div class="faq-main">
+<div class="ss-main">
 	<div class="container">
 		<div class="content">
-			<p>If you are wanting to sell your bullion, contact our bullion buyer at the Tauranga Gold Exchange office where you can get great prices for your gold and silver now.</p>
-			<p>You can simply walk in and receive cash for your rings, jewellery, bullion and other items after a quick valuation.</p>
-			<p>Or, simply use our contact us page to leave your details and we will be right back to you to arrange a quote for your bullion.</p>
+            <p>This Page is Under Construction. Come Back Soon.</p>
 		</div>
 	</div>
 </div>

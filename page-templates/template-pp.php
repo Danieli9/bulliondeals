@@ -15,7 +15,7 @@ get_header();
 
 ?>
 
-<div class="faq-header">
+<div class="pp-header">
 	<div class="container">
 		<div class="row">
 			<div class="col-6 text-holder">
@@ -28,13 +28,21 @@ get_header();
 	</div>
 </div>
 
-<div class="faq-main">
+<div class="pp-main">
 	<div class="container">
 		<div class="content">
-			<p>If you are wanting to sell your bullion, contact our bullion buyer at the Tauranga Gold Exchange office where you can get great prices for your gold and silver now.</p>
-			<p>You can simply walk in and receive cash for your rings, jewellery, bullion and other items after a quick valuation.</p>
-			<p>Or, simply use our contact us page to leave your details and we will be right back to you to arrange a quote for your bullion.</p>
-		</div>
+            <h1>Privacy Policy</h1> 
+            <p>We collect personal information (including your full name, address, and contact details) so that we may administer our relationship with you, provide you with products and services you request, as well as information about Bullion Deals products and services. Where it is necessary to do so, we also collect information on individuals such as company director and officers (where the company is our client), as well as client's agents and persons dealing with us on a "one off" basis.</p>
+            <p>If you provide us with incomplete or inaccurate information, we may not be able to provide you with the products or services you are seeking.</p>
+            <div class="smaller">
+                <p>We may communicate personal information to:</p>
+                <p>– Agents who refer business to us, and external product providers</p>
+                <p>– Organisations to whom we outsource certain functions</p>
+                <p>In all circumstances where contractors and agents may become aware of personal information, confidentiality agreements apply.</p>
+                <p>Personal information may only be used by our agents and contractors for our purposes.</p>
+                <p>We may be allowed or obliged to disclose information by law.</p>
+            </div>
+        </div>
 	</div>
 </div>
 

@@ -15,7 +15,7 @@ get_header();
 
 ?>
 
-<div class="faq-header">
+<div class="toc-header">
 	<div class="container">
 		<div class="row">
 			<div class="col-6 text-holder">
@@ -28,7 +28,7 @@ get_header();
 	</div>
 </div>
 
-<div class="faq-main">
+<div class="toc-main">
 	<div class="container">
 		<div class="content">
 			<p>If you are wanting to sell your bullion, contact our bullion buyer at the Tauranga Gold Exchange office where you can get great prices for your gold and silver now.</p>

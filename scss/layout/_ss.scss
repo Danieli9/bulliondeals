@@ -1,0 +1,50 @@
+.ss-header {
+    background-color: #002650;
+    padding: 80px 0px;
+    .text-holder {
+        display: flex;
+        h1 {
+            color: #FFF;
+            font-size: 21;
+            line-height: 1.1;
+            font-weight: 800;
+            display: flex;
+            align-self: center;
+            @media (min-width: 768px) {
+                font-size: 70px;
+            }
+            
+        }
+    }
+    .img-holder {
+        svg {
+            max-width: 410px;
+        }
+    }
+
+}
+
+.ss-main {
+    margin-top: 110px;
+    margin-bottom: 150px;
+    .content {
+        max-width: 730px;
+        margin-bottom: 80px;
+    }
+    .agents {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        @media (min-width: 768px) {
+            justify-content: space-between;
+        }
+        a {
+            margin-bottom: 20px;
+            @media (min-width: 768px) {
+                margin-left: 5px;
+                margin-right: 5px;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
